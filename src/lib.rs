@@ -1,4 +1,6 @@
-pub use ethabi::ethereum_types::{Address, U256};
+pub use ethabi; // Re-export
+
+use ethabi::ethereum_types::{Address, U256};
 
 pub struct TakeLastXBytes(usize);
 
