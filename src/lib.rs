@@ -1,4 +1,5 @@
 pub use ethabi; // Re-export
+pub use hex; // Re-export
 
 use ethabi::ethereum_types::{Address, U256};
 
