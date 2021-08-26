@@ -2,8 +2,13 @@
 name = "eth-encode-packed"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+homepage = "https://github.com/roberts-ivanovs/eth-encode-packed-rs"
+license = "MIT"
+authors = [
+    "Roberts Ivanovs <robertsivanovs1999@gmail.com>",
+]
+keywords = ["ethereum", "eth", "abi", "solidity"]
+description = "Easy to use replica of Solidity abi.encodePacked."
 
 [dependencies]
 ethabi = "14.1.0"
