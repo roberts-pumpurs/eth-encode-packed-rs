@@ -1,5 +1,14 @@
 # Ethereum abi.encodePacked() in Rust
 
+## THIS PROJECT IS UNMAINTAINED!
+
+### > [Please use `ethers-rs` library and the `encode_packed` function that they provide!](https://github.com/gakonst/ethers-rs/blob/b730b74a1c8d142d334aef71c949248139dd0d47/ethers-core/src/abi/packed.rs#L54)
+
+
+------
+------
+------
+
 This project allows data serialization and packing in Rust as it's being done in Solidity with abi.encodePacked()
 
 ## Example usage
